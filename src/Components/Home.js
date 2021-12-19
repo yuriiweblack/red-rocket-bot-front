@@ -20,6 +20,11 @@ export default class Home extends Component {
                             </li>
                             <li className="menu__link">
                                 <Link to="/events">Events</Link>
+                                {/*<div>*/}
+                                {/*    <ul className="menu__link">*/}
+                                {/*        <Link to="/events/events-edit">Events</Link>*/}
+                                {/*    </ul>*/}
+                                {/*</div>*/}
                             </li>
                             <li className="menu__link">
                                 <Link to="/certificates">Certificates</Link>

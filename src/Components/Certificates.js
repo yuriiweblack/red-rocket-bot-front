@@ -12,5 +12,3 @@ export default class Certificates extends Component {
         )
     }
 }
-
-

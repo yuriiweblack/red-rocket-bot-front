@@ -5,6 +5,7 @@ import Home from "./Home";
 import SignIn from "./SignIn";
 import Events from "./Events";
 import Certificates from "./Certificates";
+// import EventsEdit from "./EventsEdit"
 
 
 const Router = () => {
@@ -14,7 +15,8 @@ const Router = () => {
                 <Route exact path='/'component={Home} />
                 <Route exact path='/events'component={Events} />
                 <Route exact path='/certificates'component={Certificates} />
-                <Route exact path='/signin'component={SignIn} /> 
+                <Route exact path='/signin'component={SignIn} />
+                {/*<Route exact path='/events/edit'component={EventsEdit} />*/}
             </Switch>
         </BrowserRouter>
     )
