@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.container1{
+
+    background-image: url(../images/book-bg.jpg);
+    min-width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.title{
+    padding: 25px 0;
+    color: green;
+    margin-left: 500px;
+}
+
+.form{
+    margin-left: 500px;
+}
+
+.form input{
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+
+.form input input{
+
+
+}
