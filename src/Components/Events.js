@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import EventsEdit from "./EventsEdit";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function RouterToConnectEditEvents() {
   const [fields, updateFields] = useState({
@@ -12,9 +11,9 @@ function RouterToConnectEditEvents() {
   });
 
   return (
-    <div className="container">
-      <EventsEdit fields={fields} updateFields={updateFields} />
-    </div>
+      <div className="container2">
+        <EventsEdit fields={fields} updateFields={updateFields} />
+      </div>
   );
 }
 
