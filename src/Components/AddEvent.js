@@ -2,7 +2,7 @@ import React from "react";
 import '../css/addevent.css';
 
 
-class Addevent extends React.Component {
+class AddEvent extends React.Component {
   
    
     constructor(props) {
@@ -103,7 +103,7 @@ class Addevent extends React.Component {
     }
   }
 
-  export default Addevent;
+  export default AddEvent;
 
 
 //   class Addevent extends React.Component {
