@@ -6,8 +6,9 @@ import SignIn from "./SignIn";
 import Events from "./Events";
 import Certificates from "./Certificates";
 import Event from "./Event";
-import Addevent from "./AddEvent";
+import AddEvent from "./AddEvent";
 import AddCertificate from "./AddCertificate";
+import Category from "./Category";
 
 const Router = () => {
     return(
@@ -15,8 +16,9 @@ const Router = () => {
             <Switch>
                 <Route exact path='/'component={Home} />
                 <Route exact path='/event'component={Event} />
-                <Route exact path='/add'component={Addevent} />
-                <Route exact path='/edit'component={Events} />
+                <Route exact path='/event/add'component={AddEvent} />
+                <Route exact path='/event/edit'component={Events} />
+                <Route exact path='/event/categories/add'component={Category} />
                 <Route exact path='/certificates'component={Certificates} />
                 <Route exact path='/add-certificate'component={AddCertificate} />
                 <Route exact path='/signin'component={SignIn} />
