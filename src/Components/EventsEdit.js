@@ -1,6 +1,6 @@
 import React, {Component, useState} from 'react';
 import { withFormik, Form, Field } from 'formik';
-import '../css/home.css';
+import {Link} from "react-router-dom";
 
 const form_id = 'form_id';
 class MaintenanceForm extends Component {
@@ -36,6 +36,12 @@ class MaintenanceForm extends Component {
           :
           <button className="btn btn-primary btn-sm" onClick={this.editOnClick} style={{marginLeft: "0px", marginBottom: "30px"}}>Edit</button>
         }
+        </div>
+        <div className="link">
+          <button className="btn btn-outline-primary" >
+              <Link to={"/event"} className="link-light"> Back to events
+              </Link>
+          </button>
         </div>
       </React.Fragment>
     );
@@ -76,7 +82,7 @@ class MaintenanceForm extends Component {
             </label>
           </div>
         </div>
-        <div className="form-group row">
+    <div className="form-group row">
           <label className="col-sm-2 col-form-label">Link</label>
           <div className="col-sm-10">
             <label type="text" name="device_type" className="form-control">
@@ -128,7 +134,7 @@ class MaintenanceForm extends Component {
   render() {
     return (
       <React.Fragment>
-        <center><h2>Events:</h2></center>
+        <center><h2 className="title2">Events:</h2></center>
         {this._renderAction()}
         <Form id={form_id}>
         {
