@@ -24,13 +24,18 @@ class Event extends Component {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/add"} className="nav-link">
+              <Link to={"/event/add"} className="nav-link">
                 Add event
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/edit"} className="nav-link">
+              <Link to={"/event/edit"} className="nav-link">
                 Edit event
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to={"/event/categories/add"} className="nav-link">
+                Add category
               </Link>
             </li>
           </div>
