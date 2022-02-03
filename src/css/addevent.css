@@ -30,6 +30,14 @@
     background-position: center;
 }
 
+.container4{
+    background-image: url("https://thumbs.dreamstime.com/z/certificate-award-diploma-template-design-certificate-appreciation-modern-business-card-award-design-certificate-award-diploma-171724692.jpg");
+    min-width: 100%;
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
+}
+
 .form-statusbar {
     margin-left: 510px;
 }
