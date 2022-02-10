@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.container1{
+
+    background-image: url(../images/book-bg.jpg);
+    min-width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container2{
+    background-image: url("https://img1.akspic.ru/originals/3/7/5/0/3/130573-kosmicheskoe_prostranstvo-zemlya-prostranstvo-atmosfera-sneg-1920x1080.jpg");
+    min-width: 100%;
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
+}
+
+.container3{
+    background-image: url("https://images.wallpaperscraft.ru/image/single/kosmonavt_astronavt_art_142015_1920x1080.jpg");
+    min-width: 100%;
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
+}
+
+.container4{
+    background-image: url("https://thumbs.dreamstime.com/z/certificate-award-diploma-template-design-certificate-appreciation-modern-business-card-award-design-certificate-award-diploma-171724692.jpg");
+    min-width: 100%;
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-statusbar {
+    margin-left: 510px;
+}
+
+.title2 {
+    color: black;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.link {
+    margin-left: 510px;
+    background-position: center;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+
+.title{
+    padding: 25px 0;
+    color: green;
+    margin-left: 500px;
+}
+
+.form{
+    margin-left: 500px;
+}
+
+.form-group {
+    margin-left: 500px;
+    margin-right: 300px;
+}
+
+.form input{
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+
+.form input input{
+
+}

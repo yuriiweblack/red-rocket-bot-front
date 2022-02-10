@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Router from './Components/Router';
+import Router from './components_events/Router';
 import reportWebVitals from './reportWebVitals';
+// import * as config from 'src/config/constant';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router />
+      <Router />
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -15,4 +16,3 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals((console.log));
- 
